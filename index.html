@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="David Omosigho. Computer Information Systems student at Georgia State University, focused on IT support and cybersecurity.">
+  <meta name="theme-color" content="#000000">
+  <meta name="color-scheme" content="dark">
+  <title>DO's website</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23000000'/%3E%3Ctext x='10' y='43' font-family='Arial' font-size='30' font-weight='700' fill='%23b4f5ca'%3EO7%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css?v=5">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="header shell">
+    <a class="wordmark" href="#main" aria-label="David Omosigho, home">do<span class="brand-dot">.</span></a>
+    <nav aria-label="Main navigation"><a href="#work">Projects</a><a href="#about">About</a><a href="#contact">Contact <span aria-hidden="true">↗</span></a></nav>
+  </header>
+  <main id="main">
+    <section class="hero shell" aria-labelledby="name">
+      <div class="hero-meta"><p class="eyebrow">IT SUPPORT / CYBERSECURITY</p><p class="availability"><span class="status-dot" aria-hidden="true"></span> Open to opportunities</p></div>
+      <h1 id="name">David Omosigho<span class="accent">.</span></h1>
+      <p class="hero-description">Computer Information Systems student at Georgia State University. Building practical skills in IT support, Linux, and network security.</p>
+      <div class="hero-actions"><a class="primary-link" href="#work">Explore projects <span aria-hidden="true">↘</span></a><a class="quiet-link" href="https://github.com/Davidswrldzx" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a></div>
+      <div class="hero-bottom" aria-hidden="true"><span class="coordinate">ATLANTA, GA</span><span class="crosshair">+</span><span class="coordinate">LEARN. BUILD. IMPROVE.</span></div>
+    </section>
+    <section class="work shell" id="work" aria-labelledby="work-heading">
+      <div class="section-head"><h2 id="work-heading"><span class="section-index" aria-hidden="true">01</span> Projects</h2><span class="section-note">FEATURED PROJECTS</span></div>
+      <div class="project-grid">
+        <article class="project-card">
+          <div class="card-top"><svg class="project-icon" aria-hidden="true" viewBox="0 0 24 24" fill="none"><path d="M14 3H6a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V8l-5-5Z" stroke="currentColor" stroke-width="1.25" stroke-linejoin="round"/><path d="M14 3v5h5M8 13h8M8 17h5" stroke="currentColor" stroke-width="1.25"/></svg><span class="project-number" aria-hidden="true">01</span></div>
+          <p class="project-tools">LINUX / AUDITD</p><h3>Linux file monitoring</h3><p class="project-description">Tracked file changes in Ubuntu and used audit logs to find the processes behind them.</p><details class="project-disclosure"><summary>What I did<span class="disclosure-icon" aria-hidden="true">+</span></summary><div class="project-details"><ul><li>Set auditd rules to watch protected files for changes.</li><li>Ran three simulations and investigated the logs with ausearch.</li><li>Traced changes in four files to the responsible processes.</li></ul></div></details><a class="card-action" href="https://github.com/Davidswrldzx/Linux-Auditd-File-Integrity-Monitoring" target="_blank" rel="noopener noreferrer" aria-label="Linux file monitoring, view on GitHub">View on GitHub <span aria-hidden="true">↗</span></a></article>
+        <article class="project-card">
+          <div class="card-top"><svg class="project-icon" aria-hidden="true" viewBox="0 0 24 24" fill="none"><rect x="3" y="5" width="18" height="14" rx="2" stroke="currentColor" stroke-width="1.25"/><path d="m4 7 8 6 8-6M4 18l5-6M20 18l-5-6" stroke="currentColor" stroke-width="1.25" stroke-linejoin="round"/></svg><span class="project-number" aria-hidden="true">02</span></div>
+          <p class="project-tools">WIRESHARK / NETWORK ANALYSIS</p><h3>Phishing investigation</h3><p class="project-description">Examined email traffic in Wireshark to identify phishing activity in a simulated attack.</p><details class="project-disclosure"><summary>What I did<span class="disclosure-icon" aria-hidden="true">+</span></summary><div class="project-details"><ul><li>Filtered email traffic using SMTP and IMF in Wireshark.</li><li>Identified 24 phishing emails in the simulated attack.</li><li>Used email metadata and capture context to document suspicious activity.</li></ul></div></details><a class="card-action" href="https://github.com/Davidswrldzx/business-email-compromise-investigation" target="_blank" rel="noopener noreferrer" aria-label="Phishing investigation, view on GitHub">View on GitHub <span aria-hidden="true">↗</span></a></article>
+        <article class="project-card">
+          <div class="card-top"><svg class="project-icon" aria-hidden="true" viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="18" height="7" rx="2" stroke="currentColor" stroke-width="1.25"/><rect x="3" y="14" width="18" height="7" rx="2" stroke="currentColor" stroke-width="1.25"/><path d="M7 6.5h.01M7 17.5h.01M11 6.5h6M11 17.5h6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg><span class="project-number" aria-hidden="true">03</span></div>
+          <p class="project-tools">NGINX / NETDATA</p><h3>Web server protection</h3><p class="project-description">Configured nginx timeouts and compared connection patterns during a local Slowloris lab.</p>
+          <details class="project-disclosure"><summary>What I did<span class="disclosure-icon" aria-hidden="true">+</span></summary><div class="project-details"><ul><li>Added request timeouts to the nginx server configuration.</li><li>Validated the settings and reloaded the web server.</li><li>Compared TCP connections in Netdata before and after the change.</li></ul></div></details>
+          <a class="card-action" href="https://github.com/Davidswrldzx/slowloris-nginx-mitigation" target="_blank" rel="noopener noreferrer" aria-label="Web server protection, view on GitHub">View on GitHub <span aria-hidden="true">↗</span></a>
+        </article>
+      </div>
+      <div class="all-projects"><span>More of what I’m building and learning.</span><a href="https://github.com/Davidswrldzx?tab=repositories" target="_blank" rel="noopener noreferrer">View all projects <span aria-hidden="true">↗</span></a></div>
+    </section>
+    <section class="about shell" id="about" aria-labelledby="about-heading">
+      <div class="section-head"><h2 id="about-heading"><span class="section-index" aria-hidden="true">02</span> A little about me</h2></div>
+      <div class="about-grid"><div><p class="about-description">Customer service taught me to listen, work through problems, and explain the next step clearly. That’s the approach I bring to technology.</p><ul class="skills" aria-label="Core skills"><li>Linux</li><li>Windows</li><li>Python</li><li>SQL</li><li>Wireshark</li></ul></div><div class="credentials"><p class="education">Georgia State University<span>B.S. Computer Information Systems · Expected 2028</span></p><a class="certificate" href="https://coursera.org/share/fb71296c2cbd210618eccfacab6a9a5b" target="_blank" rel="noopener noreferrer"><span>Google Cybersecurity Certificate <span class="credential-year">2024</span></span><span aria-hidden="true">↗</span></a></div></div>
+    </section>
+    <section class="contact shell" id="contact" aria-labelledby="contact-heading">
+      <div class="contact-intro"><p class="eyebrow">LET’S CONNECT</p><h2 id="contact-heading">Let’s talk<span class="accent">.</span></h2><p>For opportunities, projects, or a conversation.</p></div>
+      <div class="contact-options">
+        <a class="email-link" id="email-link" href="mailto:Davidswrld007@gmail.com">Davidswrld007@gmail.com <span aria-hidden="true">↗</span></a>
+        <div class="contact-actions"><a href="https://www.linkedin.com/in/david-omosigho-029a98436" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a><button id="copy-email" type="button">Copy email <span aria-hidden="true">⧉</span></button></div>
+        <p class="contact-feedback" id="contact-feedback" role="status" aria-live="polite"></p>
+      </div>
+    </section>
+  </main>
+  <footer class="footer shell"><span>© <span id="year">2026</span> David Omosigho</span><div><a href="https://github.com/Davidswrldzx" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a><a href="https://www.linkedin.com/in/david-omosigho-029a98436" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a></div></footer>
+  <script src="script.js?v=5" defer></script>
+</body>
+</html>
